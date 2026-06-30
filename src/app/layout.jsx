@@ -8,14 +8,6 @@ const josefin = Josefin_Sans({
   display: "swap",
 });
 
-// export const metadata = {
-//   title: {
-//     template: "%s / داشبورد گالری تژاو",
-//     default: "خوش‌آمدید / داشبورد گالری تژاو",
-//   },
-//   description: "داشبورد مدیریت ادمین وبسایت گالری تژاو ",
-// };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">

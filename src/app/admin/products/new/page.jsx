@@ -6,7 +6,6 @@ import { useForm } from "react-hook-form";
 import { createProduct, uploadProductImage } from "@/lib/dataService";
 import { ArrowRight, Upload, Save } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function NewProductPage() {
   const router = useRouter();
@@ -181,8 +180,7 @@ export default function NewProductPage() {
             }`}
           >
             {imagePreview ? (
-              <Image
-                fill
+              <img
                 src={imagePreview}
                 alt="Preview"
                 className="w-32 h-32 object-cover rounded-lg mb-3"
